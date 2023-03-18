@@ -9,7 +9,7 @@ function saturdayFun(activity = "roller-skate") {
     return `This Monday, I will ${activity}.`;
   };
   
-  function wrapAdjective(symbol = "@") {
+  function wrapAdjective(symbol = "*") {
     return function (adjective = "special") {
       return `You are ${symbol}${adjective}${symbol}!`;
     };
